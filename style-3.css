@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.trans-con {
+    background-color: rgba(18, 162, 214, 0.18);
+    width: 100%;
+    height: 25vh;
+}
+
+.back-button {
+    position: absolute;
+    margin-left: 2vh;
+    margin-top: 2.5vh;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    display: flex;
+    gap: 7px;
+    color: black !important;
+}
+
+.back-button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.t-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 270%;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 9vh;
+}
+
+.t-dot {
+    height: 14vh;
+    width: 19vh;
+    position: absolute;
+    background: radial-gradient(circle, #00aaff5c 10%, transparent 11%);
+    background-size: 2em 2em;
+    background-color: #ffffff00;
+    z-index: 0;
+    margin-top: 9vh;
+    margin-left: 58%;
+}
+
+.t-dot-1 {
+    height: 30vh;
+    width: 30vh;
+    position: absolute;
+    background: radial-gradient(circle, #00aaff 10%, transparent 11%);
+    background-size: 1.5em 1.5em;
+    background-color: #ffffff00;
+    z-index: 0;
+    margin-top: 70%;
+    margin-left: 8%;
+    border-radius: 50%;
+}
+
+.tm{
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.305);
+    margin-top: 150%;
+    z-index: 1;
+    width: 80%;
+    margin-left: 3%;
+    padding: 2vh;
+    border-top-right-radius: 5vh;
+    border-top-left-radius: 1vh;
+    border-bottom-left-radius: 1vh;
+    border-bottom-right-radius: 1vh;
+    min-height: 80%;
+}
+
+.circle{
+    background-color: #00aaff;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    margin-top: -10vh;
+}
+
+.comments{
+        font-family: 'Poppins', sans-serif;
+        margin-top: 5vh;
+        font-weight: 600;
+}
+
+.name{
+            font-family: 'Poppins', sans-serif;
+                font-weight: 500;
+                margin-left: 27vh;
+}
+
+.tm-1 {
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.305);
+    margin-top: 30%;
+    z-index: 1;
+    width: 80%;
+    margin-left: 3%;
+    padding: 2vh;
+    border-top-right-radius: 5vh;
+    border-top-left-radius: 1vh;
+    border-bottom-left-radius: 1vh;
+    border-bottom-right-radius: 1vh;
+    min-height: 80%;
+}
